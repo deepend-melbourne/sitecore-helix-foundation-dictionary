@@ -59,6 +59,17 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Kernel.NoReferences">
+      <Version>9.0.171219</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Mvc.NoReferences">
+      <Version>9.0.171219</Version>
+    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers">
+      <Version>1.0.2</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\Deepend.build.dotnet.props" />
 </Project>
